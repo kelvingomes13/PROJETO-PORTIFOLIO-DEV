@@ -1,0 +1,50 @@
+#services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  height: 480px;
+  background-color: var(--base-gray-100);
+  
+}
+.api {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:24px;
+
+}
+.api div {
+  flex-direction: column;
+    border: 2px solid var(--base-gray-200);
+    border-radius: 5%;
+    width: 280px;
+    height: 155px;
+    
+
+
+}
+.titles2 {  
+width: 355px;
+height: 61px;
+gap: 8px;
+margin-bottom: 56px;
+}
+
+#services .titlemd {
+  margin-bottom: 56px;
+}
+
+div .textaling {
+  border: 0;
+ 
+  height: 47px;
+  padding-left: 20px;
+}
+img.devices-svg {
+  width: 48px;
+  height: 48px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}

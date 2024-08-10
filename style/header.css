@@ -1,0 +1,112 @@
+#seasonone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+  height: 750px;
+  justify-content: space-around;
+
+ 
+  background-image: url(../assets/image/Background_Intro.png);
+
+}
+.intro { 
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content: center;
+  width: 1040px;
+  height: 447px;
+  padding: 120 163 183;
+
+    
+}
+
+h1 {
+    font: var(--title-lg);
+    color: var(--base-gray-500);  
+    
+
+}
+
+
+h2 {
+    font-style: ;
+    color: var(--base-gray-500); 
+    font: var(--subtitle);
+    margin-bottom: 8px;
+}
+
+.perfil {
+   border: 1px solid red;
+   border-radius: 50%;
+   margin: 8px;
+}
+
+
+p {
+    font: var(--text-sm);
+    color: var(--base-gray-400); 
+    margin-bottom: 20px;
+
+ }
+
+ .icon {
+    display: flex;
+    align-self: self-end;
+    justify-content: space-between;
+    padding: 0;
+    gap: 16px;
+    width: 754px;
+    height: 40px;
+     
+  }
+  .icon span {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  color: aliceblue;  
+  height: 40px;
+  gap: 8px;
+  
+}  
+
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0;
+  align-items: center;
+  width: 680px;
+  height: 327px;
+  
+}
+
+.projetos {
+    border: 1px solid rgb(5, 12, 5);
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap:10px;
+    justify-content: center;
+  
+}
+.carret {  
+  
+   background-image: url(../assets/icons/CaretDoubleDown.svg);
+  width: 23px;
+  height: 23px;
+
+  background-size: cover;
+}
+      
+
+
+img.code {
+    transform: translateX(-130%);
+    stop-opacity: 0;
+}
+svg.testesvg {
+  fill:azure;
+}

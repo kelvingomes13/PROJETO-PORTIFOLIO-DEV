@@ -1,0 +1,65 @@
+* {
+  align-self: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  --primary-red:#E3646E;
+  --primary-purple:#BB72E9;
+  --primary-blue:#3996DB;
+  --primary-green:#82BC4F;
+  --primary-yellow:#EABD5F;
+
+  --base-gray-100:#0D0E11;
+  --base-gray-200:#16181D;
+  --base-gray-300:#292C34;
+  --base-gray-400:#878EA1;
+  --base-gray-500:#C0C4CE;
+  --base-gray-600:#E2E4E9;
+
+  --font-family-title: 'Asap', sans-serif;
+  --font-family-subtitle: 'Inconsolata', sans-serif;
+  --font-family-text: 'Maven Pro', sans-serif;
+
+  --title-lg: 700 56px/120% var(--font-family-title);
+  --title-md: 700 24px/120% var(--font-family-title);
+  --title-sm: 600 16px/120% var(--font-family-title);
+
+  --subtitle: 400 20px/120% var(--font-family-subtitle);
+
+  --text-md: 400 16px/140% var(--font-family-text);
+  --text-sm: 400 14px/140% var(--font-family-text);
+
+}
+
+body {
+  background-color: var(--base-gray-300);
+}
+
+.titlemd {
+  font: var(--title-md);
+  color: var(--base-gray-600);
+  text-align: center;
+}
+
+.subtitleorange {  
+  color:var(--primary-red); 
+  text-align: center;
+  font: var(--subtitle);
+}
+.titlesm {
+  font: var(--title-sm);
+  color: var(--base-gray-600);
+}
+.textsm {
+  font: var(--text-sm);
+  color: var(--base-gray-500);
+}
+.textmd {
+  font: var(--text-md);
+  color: var(--base-gray-500);
+}

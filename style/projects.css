@@ -1,0 +1,72 @@
+#projects {margin: 0;
+  display: flex;
+  flex-direction:column;
+  padding: 72px 120px 144px;
+  gap:24px;
+  background-color: var(--base-gray-200);
+
+}
+
+
+  .titles2 {
+    display: grid;
+    gap:10px;
+    justify-content: center;
+    text-align: center;   
+    gap:10px;
+    width: 100%;
+    
+      
+  }
+
+
+  .titlemd {
+    padding: 0;
+    margin: 0;
+  font: var( --title-md);
+  width: 100%;
+
+}
+
+
+
+.paginas{
+    border-radius: 12px;
+    background-color:var(--base-gray-300);
+    overflow: hidden;
+    padding: 12px;
+    object-fit: cover;
+    height: 280px;
+    width: 330px;
+  
+
+ 
+  
+}
+.container{
+  
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap:24px;     
+    width: auto;
+   }
+    
+ .teste {    
+  border-radius: 16px;
+  width: 306px;
+  height: 156px;
+  margin: 12 12 20;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+
+
+ .seasontwo {
+  margin-top: 20px;
+  align-self:flex-end ;
+  width: 100%;
+
+}

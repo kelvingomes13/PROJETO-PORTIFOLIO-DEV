@@ -49,6 +49,7 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 ## 📚  Experiencia
 Conquistamos conhecimentos sobre nossas proprias falhas e percebemos a importancia de manter organização e padrão nas linhas de codigo, mantendo a limpeza do projeto.
 Manter a pratica, pesquisa e leitura agregando conhecimento a caminhada.
+Identificando os erros e aplicando correções.
 
 ## 🎫 Licença
 

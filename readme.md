@@ -57,5 +57,3 @@ Esse projeto está sob a licença MIT.
 ---
 
 Feito com ♥ by Rocketseat
-# PROJETO-PORTIFOLIO-DEV
-# PROJETO-PORTIFOLIO-DEV

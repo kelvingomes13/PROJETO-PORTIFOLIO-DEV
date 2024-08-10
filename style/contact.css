@@ -7,7 +7,7 @@
   width: 100%;
   background-size: cover;
   height: 787px;
-  background-image: url(/assets/image/Background_Contacts.png);
+  background-image: url(../assets/image/Background_Contacts.png);
   
 }
 
@@ -58,7 +58,7 @@ a img {
 
 span.seta {
   
-  background-image: url(/assets/icons/ArrowUpRight.svg);
+  background-image: url(../assets/icons/ArrowUpRight.svg);
   width: 11px;
   height: 11px;  
   background-repeat: no-repeat;
